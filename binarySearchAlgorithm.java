@@ -10,10 +10,10 @@ public class binarySearchAlgorithm {
             if (numbers[middle] == key) // Will search element within a respective boundary.
                 found = middle ;
 
-            if (numbers[middle] > key) // If element on the left side.
+            if (numbers[middle] > key) // Element to the left side.
                 last = middle - 1 ;
                 else
-                start = middle + 1 ;  // If element on the right side.
+                start = middle + 1 ;  // Element to the right side.
         }
         return found ;
     }
@@ -22,7 +22,7 @@ public class binarySearchAlgorithm {
       int key = 50 ;
       int found = binarySearch(numbers , key) ; // Passing Array by reference.
 
-      if (found == -1)
+      if (found == -1)    // Invalid Index
           System.out.println("Not found!");
       else
           System.out.println("Found at index : "+ found);
