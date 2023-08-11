@@ -1,7 +1,7 @@
 public class binarySearchAlgorithm {
     public static int binarySearch (int[] numbers, int key){
         int start = 0 ;        // Initialization
-        int last = numbers.length -1 ;
+        int last = numbers.length -1 ; // (n-1)
         int found = -1 ;
 
         while (start <= last){
