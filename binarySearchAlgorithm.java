@@ -7,13 +7,13 @@ public class binarySearchAlgorithm {
         while (start <= last){
             int middle = (start+last)/2 ;
 
-            if (numbers[middle] == key) // Will search element within a respective boundary.
+            if (numbers[middle] == key) // Will search element At middle.
                 found = middle ;
 
             if (numbers[middle] > key) // Element to the Left-side.
                 last = middle - 1 ;
                 else
-                start = middle + 1 ;  // Element to the Rightside.
+                start = middle + 1 ;  // Element to the Right-side.
         }
         return found ;
     }
