@@ -10,7 +10,7 @@ public class binarySearchAlgorithm {
             if (numbers[middle] == key) // Will search element within a respective boundary.
                 found = middle ;
 
-            if (numbers[middle] > key) // Element to the Leftside.
+            if (numbers[middle] > key) // Element to the Left-side.
                 last = middle - 1 ;
                 else
                 start = middle + 1 ;  // Element to the Right side.
