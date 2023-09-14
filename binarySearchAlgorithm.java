@@ -13,7 +13,7 @@ public class binarySearchAlgorithm {
             if (numbers[middle] > key) // Element to the Left-side.
                 last = middle - 1 ;
                 else
-                start = middle + 1 ;  // Element to the Right side.
+                start = middle + 1 ;  // Element to the Rightside.
         }
         return found ;
     }
